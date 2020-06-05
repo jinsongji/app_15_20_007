@@ -1,0 +1,40 @@
+
+#data:
+#  name: "lili"
+#  password: "123456"
+
+#
+#data1:
+#  - "sdsds"
+#  - "的辅导辅导"
+#data2:
+#  - name: "颠三倒四"
+#  - pwd: "的发的发的发"
+
+#name: lll
+#bool1: true
+#bool2: false
+
+#int1: 123
+#float1: 123.552
+
+#dato: ~
+#dato10: Null
+#dato11: null
+
+#daate1: 2020-06-12 12:12:12
+#date2: 2020-03-05 02:03:05
+
+#date3: 2020-06-05
+info: &data
+  name: "颠三倒四"
+  phone: "12254555"
+
+addr:
+  <<: *data
+  age: 20
+
+
+
+
+
